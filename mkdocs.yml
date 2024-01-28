@@ -3,7 +3,10 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.expand
+    - navigation.path
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -25,3 +28,6 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: lime
+markdown_extensions:
+  - toc:
+      toc_depth: 10
